@@ -1,59 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-   
-}
-.footer{
- 
-    padding: 100px 15%;
-    padding-bottom: 10px;
-    display: flex;
-}
-.footer div{
-    text-align: down;
-}
- .col-2{
-    flex-grow: 2;
-} 
-.footer div h3{
-    font-size: x-small;
-    font-weight: 300; 
-    margin-bottom: 30px;
-    letter-spacing: 1px;
-}
- .col-1 div h3{
-    font-size: x-small;
-    display: block;
-    text-decoration: none;
-    text-align: end;
-    margin-bottom: 10px;
-} 
-.footer div h2{
-    color: red;
-}
-.col-1{
-    flex-grow: 2;
-} 
-
- /* .social-icons{
-    margin-top: 30px;
-    color: red; 
-} */
- .social-icons img{
-    font-size: 22px;
-    margin: 10px;
-    cursor: pointer;
+.col h6{
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    padding-left: 74px;
+    font-family: 'Nunito';
+    letter-spacing: 0.08em;
     
-} 
-.col-1 div h3 img{
-    text-align: center;
-    font-weight: 300;
-    letter-spacing: 3px;
 }
-.col-2 div h3 img{
-    text-align: right;
+
+.col h1{
+    color: #ED0101;
+    font-size: 30px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    padding-left: 74px;
+    font-style: normal;
 }
-.col-2 img{
-   font-size: small;
+
+.col h6{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Nunito';
+    padding-left: 74px;
+    font-style: normal;
+    letter-spacing: 0.08em;
+}
+
+.col img{
+    padding-left: 74px;
 }

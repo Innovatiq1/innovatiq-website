@@ -9,29 +9,12 @@
 }
 
 .logo {
-  /* position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 25px;
-  top: 25px; */
   position: absolute;
   left: -693px;
-  top: -159.24px;
+  top: -169.24px;
 }
 
-.company {
-  position: absolute;
-  width: 79px;
-  height: 50px;
-  left: 143.97px;
-  top: 20px;
-  font-family: 'Nunito';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 25px;
-  color: #000000;
-}
+
 
 .service {
   position: absolute;
@@ -163,7 +146,7 @@
   position: absolute;
   width: 542.62px;
   height: 82px;
-  left: 145.96px;
+  left: 131.96px;
   top: 411.61px;
   font-family: 'Nunito';
   font-style: normal;
@@ -256,7 +239,7 @@
 
 img {
   position: absolute;
-  left: 747.09px;
+  left: 762.09px;
   top: 175.9px;
 }
 
