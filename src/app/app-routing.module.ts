@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { ServiceComponent } from './components/service/service.component';
@@ -6,11 +6,13 @@ import { ServiceComponent } from './components/service/service.component';
 const routes: Routes = [
   {
     path:'',
-    component:HomeComponent
+    component:HomeComponent,
+    
   },
   {
     path:'service',
-    component:ServiceComponent
+    component:ServiceComponent,
+    
   }
 ];
 

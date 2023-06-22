@@ -7,6 +7,8 @@ import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServiceComponent } from './components/service/service.component';
+// import { AlertModule } from 'ngx-bootstrap';
+import { CareerComponent } from './components/career/career.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,14 @@ import { ServiceComponent } from './components/service/service.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ServiceComponent
+    ServiceComponent,
+    
+    CareerComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    // AlertModule
   ],
   providers: [],
   bootstrap: [AppComponent]

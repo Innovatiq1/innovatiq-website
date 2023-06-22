@@ -1,0 +1,243 @@
+.img{
+    position: absolute;
+width: 31.12px;
+height: 31.12px;
+left: 67.48px;
+top: 102.5px;
+border-radius: 50%;
+background: #E1114C;
+}
+
+/* .ellipse{
+    position: absolute;
+    width: 31.12px;
+    height: 31.12px;
+    right: -10.86px;
+    top: 454.7px;
+    border-radius: 50%;
+    background: #B08E59;
+} */
+
+.Ellipse{
+    position: absolute;
+width: 31.12px;
+height: 31.12px;
+left: -8.53px;
+top: 946.93px;
+border-radius:  0 50px 50px 0;
+background: #D9D9D9;
+}
+.row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+
+.rectangle {
+    height: 80px;
+    width: 100vw;
+    background-color: #f0eeeef3
+}
+
+.rectangle .circle {
+    position: absolute;
+    left: 26.52px;
+    top: -3px;
+}
+
+.rectangle h2 {
+    position: absolute;
+    font-size: medium;
+    font-weight: bolder;
+    top: 25.15px;
+}
+
+h1 {
+    color: red;
+}
+
+.wrap img {
+    /* position: absolute;  */
+    width: 95vw;
+    margin-top: 40px;
+    /* left: 30px;  */
+
+}
+
+.rect-2 {
+    position: absolute;
+    width: 499px;
+    height: 89.32px;
+    top: 17vw;
+    left: 0vw;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+}
+
+.line {
+    position: absolute;
+    width: 61.32px;
+    height: 0px;
+    left: 10vw;
+    top: 3vw;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.btn {
+    position: absolute;
+    width: 139px;
+    height: 49px;
+    border-color: #FFAE3B;
+    background: #FFAE3B;
+    border-radius: 15px;
+    top: 20px;
+    left: 23vw;
+}
+
+.ellipse-3 img {
+    position: absolute;
+    width: 485.16px;
+    height: 485.16px;
+    left: 50vw;
+    top: 20vw;
+}
+
+.ellipse-4 img {
+    position: absolute;
+    width: 588.16px;
+    height: 588.16px;
+    left: 46vw;
+    top: 16vw;
+}
+
+.john img {
+    position: absolute;
+    width: 46.87px;
+    height: 46.6px;
+    left: 51vw;
+    top: 19vw;
+}
+
+.correct img {
+    position: absolute;
+    width: 14.6px;
+    height: 14.6px;
+    left: 53vw;
+    top: 21vw;
+}
+
+.angela img {
+    position: absolute;
+    width: 46.6px;
+    height: 46.89px;
+    left: 76.5vw;
+    top: 19vw;
+}
+
+.star img {
+    position: absolute;
+    width: 14.6px;
+    height: 14.6px;
+    left: 78.5vw;
+    top: 21vw;
+
+}
+
+.oksana img {
+    position: absolute;
+    width: 46.6px;
+    height: 46.89px;
+    left: 70.5vw;
+    top: 51vw;
+}
+
+.correct-2 img {
+    position: absolute;
+    width: 14.6px;
+    height: 14.6px;
+    left: 72.5vw;
+    top: 53vw;
+}
+
+.image img {
+    position: absolute;
+    width: 572px;
+    height: 628px;
+    left: 42vw;
+    top: 8vw;
+}
+
+.Innovatiqprovides h2{
+    color: #E1114C;
+    /* font-weight: 500;
+    font-style: normal; */
+    font-size: 40px;
+}
+
+.recta{
+    position:absolute;
+    width:94vw;
+    left:1vw;
+    top:219vw;
+    height:50vw;
+    /* border:1px solid #000;  */
+    background-color: #f0eeeef3;
+}
+
+.btn3{
+  
+    position: absolute;
+    top: 12vw;
+    width: 168.81px;
+    height: 49px;
+    left: 1150.3px;
+    border-color: #FFAE3B;
+    background: #FFAE3B;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}  
+
+.text_over_image_1 {
+    position: absolute;
+    top: 286.3vw;
+    left: 144px;
+    font-family: 'Nunito';
+    font-style: normal; 
+}
+
+.btn2{
+    position: absolute;
+    left: -24px;
+    width: 139px;
+    height: 49px;
+    border-color: #FFAE3B;
+    background: #FFAE3B;
+    border-radius: 30px;
+    font-family: 'Nunito';
+    font-style: normal;
+}
+.col-10{
+    width: 80vw;
+    overflow-x: auto;
+    overflow-y: hidden;
+     white-space: nowrap;
+}
+
+.col-10 img{
+    padding-left: 30px;
+    padding-top: 69px ;
+}
+.footer{
+    font-weight: bolder;
+    border-top: 2px solid black;
+    margin-top: 3vw;
+}

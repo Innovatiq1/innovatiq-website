@@ -1,0 +1,32 @@
+.col h6{
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    padding-left: 74px;
+    font-family: 'Nunito';
+    letter-spacing: 0.08em;
+    
+}
+
+.col h1{
+    color: #ED0101;
+    font-size: 30px;
+    font-family: 'Nunito';
+    font-weight: 700;
+    padding-left: 74px;
+    font-style: normal;
+}
+
+.col h6{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Nunito';
+    padding-left: 74px;
+    font-style: normal;
+    letter-spacing: 0.08em;
+}
+
+.col img{
+    padding-left: 74px;
+}
