@@ -9,6 +9,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ServiceComponent } from './components/service/service.component';
 // import { AlertModule } from 'ngx-bootstrap';
 import { CareerComponent } from './components/career/career.component';
+import { ContactformComponent } from './contactform/contactform.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CareerComponent } from './components/career/career.component';
     HomeComponent,
     ServiceComponent,
     
-    CareerComponent
+    CareerComponent,
+          ContactformComponent
   ],
   imports: [
     BrowserModule,
