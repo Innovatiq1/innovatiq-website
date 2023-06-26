@@ -1,0 +1,659 @@
+h1 {
+    color: red;
+  }
+  .btn {
+    background-color: peru;
+    border-color: peru;
+    font-weight: bolder;
+    font-size: larger;
+    width: 150px;
+  }
+  .col-6 h4 {
+    text-align: left;
+  }
+  .col-6 p{
+    text-align: left;
+  }
+  .footer{
+    position: absolute;
+  width: 1260.79px;
+  top: 998px;
+  font-weight: bolder;
+  border-top: 2px solid #000000;
+  }
+  .rights{
+    position: absolute;
+  width: 395.3px;
+  height: 19px;
+  left: 40.91px;
+  top: 1010.59px;
+  border:100px;
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  
+  }
+  .terms{
+    position: absolute;
+  width: 230.07px;
+  height: 19px;
+  left: 43.59px;
+  top: 1030.59px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  
+  letter-spacing: 0.06em;
+  
+  color: #000000;
+  
+  }
+  .powered{
+    position: absolute;
+  width: 165.23px;
+  height: 19px;
+  left: 1094.05px;
+  top: 1005.69px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  
+  
+  letter-spacing: 0.06em;
+  
+  color: #000000;
+  
+  }
+  
+  .header-align-right label{
+    padding-bottom: 10px;
+  }
+  .header-align-right input{
+    font-weight: lighter;
+  border-radius: 9px;
+  background-color: lightgrey;
+  height: 3vw;
+  }
+  .header-align-right textarea{
+    font-weight: lighter;
+    border-radius: 10px;
+    background-color: lightgray;
+    
+  }
+  .col-md-6{
+    text-align: center;
+  
+  }
+  /* .rectangle{
+    position: absolute;
+  width: 1365px;
+  height: 103.13px;
+  left: 0px;
+  top: 0px;
+  
+  background: rgba(217, 217, 217, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 5px 5px;
+  
+  }
+  .circle{
+    position: absolute;
+  width: 60.17px;
+  height: 60.17px;
+  left: 68.52px;
+  top: 25.76px;
+  border-radius: 50px;
+  background: #E2E2E2;
+  
+  }
+  .company-logo{
+    position: absolute;
+  width: 79px;
+  height: 50px;
+  left: 143.97px;
+  top: 32.15px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  
+  color: #000000;
+  
+  }
+  .services{
+    position: absolute;
+  width: 70px;
+  height: 25px;
+  left: 388.22px;
+  top: 45.49px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0D0802;
+  
+  }
+  .industries{
+    position: absolute;
+  width: 83px;
+  height: 25px;
+  left: 531.87px;
+  top: 45.49px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  
+  }
+  .about{
+    position: absolute;
+  width: 135px;
+  height: 25px;
+  left: 688.15px;
+  top: 46.15px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  
+  }
+  .career{
+    position: absolute;
+  width: 64px;
+  height: 25px;
+  left: 887.84px;
+  top: 45.49px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  
+  
+  color: #000000;
+  
+  }
+  .contact{
+    position: absolute;
+  width: 65px;
+  height: 25px;
+  left: 1056.71px;
+  top: 38.49px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #976924;
+  
+  
+  }
+  .ellipse{
+    position: absolute;
+  width: 71.53px;
+  height: 43.63px;
+  left: 206.6px;
+  top: 102.78px;
+  border-radius: 0 0 40px 40px;
+  background: #FFAE3B;
+  
+  }
+  .email{
+    position: absolute;
+  width: 158.8px;
+  height: 38.89px;
+  left: 156.66px;
+  top: 370.72px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: capitalize;
+  
+  color: #000000;
+  }
+  .mail{
+    position: absolute;
+  left: 11.25%;
+  right: 6.23%;
+  top: 40.33%;
+  bottom: 8.33%;
+  }
+  .call{
+    position: absolute;
+  width: 134.02px;
+  height: 134.02px;
+  left: 483.77px;
+  top: 265px;
+  }
+  .call-us{
+    position: absolute;
+  width: 145.62px;
+  height: 44.33px;
+  left: 493.77px;
+  top: 375.64px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+  }
+  .offices{
+    position: absolute;
+  width: 113.53px;
+  height: 28.22px;
+  left: 740.2px;
+  top: 306px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+  }
+  .touch{
+    position: absolute;
+  width: 397.25px;
+  height: 85.7px;
+  left: 740.2px;
+  top: 340.08px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 82px;
+  
+  color: #ED0101;
+  
+  }
+  .them{
+    position: absolute;
+  width: 439.66px;
+  height: 85.7px;
+  left: 740.2px;
+  top: 416.37px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 82px;
+  
+  color: #000000;
+  
+  }
+  .lets{
+    position: absolute;
+    width: 329px;
+    height: 66px;
+    left: 740.2px;
+    top: 507.94px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #000000; 
+  }
+  .ellipse-1{
+    position: absolute;
+  width: 51.93px;
+  height: 51.93px;
+  left: -25.96px;
+  top: 566.09px;
+  border-radius: 50px;
+  background: #E1114C;
+  }
+  .location-1{
+    position: absolute;
+  width: 75.82px;
+  height: 75.82px;
+  left: 100.34px;
+  top: 656.39px;
+  }
+  .Singapore{
+    position: absolute;
+  width: 257.71px;
+  height: 38.89px;
+  left: 222.72px;
+  top: 649.13px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+  }
+  .address-1{
+    position: absolute;
+  width: 195px;
+  height: 60px;
+  left: 222.72px;
+  top: 698px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  
+  color: #000000;
+  
+  
+  }
+  .location-2{
+    position: absolute;
+  width: 75.82px;
+  height: 75.82px;
+  left: 100.34px;
+  top: 852.76px;
+  }
+  .malaysia{
+    position: absolute;
+  width: 141.79px;
+  height: 38.89px;
+  left: 222.72px;
+  top: 845.5px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+  
+  }
+  .address-2{
+    position: absolute;
+  width: 274px;
+  height: 80px;
+  left: 222.72px;
+  top: 894.37px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  
+  color: #000000;
+  
+  }
+  .location-3{
+    position: absolute;
+  width: 75.82px;
+  height: 75.82px;
+  left: 100.34px;
+  top: 1048.09px;
+  
+  }
+  .india{
+    position: absolute;
+  width: 77.67px;
+  height: 38.89px;
+  left: 222.72px;
+  top: 1040.83px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: capitalize;
+  
+  color: #000000;
+  
+  }
+  .address-3{
+    position: absolute;
+  width: 337px;
+  height: 80px;
+  left: 222.72px;
+  top: 1089.7px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  
+  color: #000000;
+  }
+  .name{
+    position: absolute;
+  width: 100px;
+  height: 19px;
+  left: 740.2px;
+  top: 558.07px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  }
+  .box{
+    position: absolute;
+  width: 425.93px;
+  height: 41.46px;
+  left: 740.2px;
+  top: 607.07px;
+  
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 9px;
+  }
+  .your-mail{
+    position: absolute;
+  width: 67px;
+  height: 19px;
+  left: 740.2px;
+  top: 664.94px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  }
+  .box-2{
+    position: absolute;
+  width: 425.93px;
+  height: 41.46px;
+  left: 740.2px;
+  top: 683.94px;
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 9px;
+  }
+  .phone{
+    position: absolute;
+  width: 41px;
+  height: 19px;
+  left: 740.2px;
+  top: 739.53px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  }
+  .box-3{
+    position: absolute;
+  width: 425.93px;
+  height: 41.46px;
+  left: 740.2px;
+  top: 758.53px;
+  
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 9px;
+  }
+  .subject{
+    position: absolute;
+  width: 47px;
+  height: 19px;
+  left: 740.2px;
+  top: 814.11px;
+  
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  
+  }
+  .box-4{
+    position: absolute;
+  width: 425.93px;
+  height: 41.46px;
+  left: 740.2px;
+  top: 833.11px;
+  
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 9px;
+  }
+  .message{
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 740.2px;
+    top: 888.7px;
+    
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;  
+    color: #000000;
+    
+  }
+  .box-5{
+    position: absolute;
+  width: 425.93px;
+  height: 93.96px;
+  left: 740.2px;
+  top: 907.7px;
+  
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 9px;
+  }
+  .btn{
+    position: absolute;
+  width: 151.17px;
+  height: 46.91px;
+  left: 738.28px;
+  top: 1045.7px;
+  
+  background: #976924;
+  border-radius: 23.457px;
+  } */
+  .col-10{
+    width: 80vw;
+        overflow-x: auto;
+        overflow-y: hidden;
+         white-space: nowrap;
+  }
+  .col-10 img{
+    padding-left: 30px;
+    padding-top: -38px ;
+  }
+  .left{
+    position: absolute;
+    /* height:110px; */
+     width:100px;
+     left:-16px;
+     top: 770px;
+     /* padding-bottom:253.67px;  */
+     /* padding-right: 200px; */
+  }
+  .abn-amro{
+    position: absolute;
+  width: 197.45px;
+  height: 50.75px;
+    top: 810px;
+    padding-left: 80px;
+  }
+  .cse-transtel{
+    position: absolute; 
+  width: 252px;
+  height: 63px;
+    top: 790px;
+    padding-left: 35px;
+  }
+  .hcl-technologies{
+    position: absolute;
+  width: 182px;
+  height: 105px;
+   top: 770px;
+     padding-left: 45px;
+  }
+  .ceva-logistics{
+    position: absolute;
+    width: 260px;
+  height: 126px;
+     top: 760px;
+     margin-left: -30px;
+  }
+  .societe-generale{
+    position: absolute;
+    width: 200px;
+  height: 200px; 
+    top: 715px;
+    margin-left: -30px;
+  }
+  .right{
+    position: absolute;
+  width: 165px;
+  height: 165px;
+  left: 1151.49px;
+  top: 743.95px;
+  
+  }
+  
+  
+  
