@@ -7,11 +7,6 @@ import { HeaderComponent } from './common/header/header.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServiceComponent } from './components/service/service.component';
-<<<<<<< HEAD
-// import { AlertModule } from 'ngx-bootstrap';
-import { CareerComponent } from './components/career/career.component';
-import { ContactformComponent } from './contactform/contactform.component';
-=======
 import { ServicesHeaderComponent } from './components/services/services-header/services-header.component';
 import { PartOneComponent } from './components/services/part-one/part-one.component';
 import { SearchButtonComponent } from './components/services/part-one/search-button/search-button.component';
@@ -27,7 +22,6 @@ import { DecorationsComponent } from './components/services/decorations/decorati
 import { CareerComponent } from './components/career/career.component';
 import { ContactformComponent } from './contactform/contactform.component';
 import { ServicesComponent } from './components/services/services.component';
->>>>>>> b2edfb5 (Add services page)
 
 @NgModule({
   declarations: [
@@ -36,11 +30,6 @@ import { ServicesComponent } from './components/services/services.component';
     FooterComponent,
     HomeComponent,
     ServiceComponent,
-<<<<<<< HEAD
-    
-    CareerComponent,
-          ContactformComponent
-=======
     CareerComponent,
           ContactformComponent,
           ServicesComponent,
@@ -55,7 +44,6 @@ import { ServicesComponent } from './components/services/services.component';
             PartFiveComponent,
             PartSixComponent,
             DecorationsComponent
->>>>>>> b2edfb5 (Add services page)
   ],
   imports: [
     BrowserModule,
