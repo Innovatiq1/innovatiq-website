@@ -1,0 +1,291 @@
+.container {
+}
+
+.img-carousel {
+    width: 1200px;
+    position: relative;
+}
+
+#right-arrow {
+    transform: rotateY(180deg);
+    position: relative;
+    top: -200px;
+    left: 1300px;
+}
+
+.ra-button {
+    position: relative;
+    top: -200px;
+    left: 1300px;
+    background-color: transparent;
+    z-index: -2;
+}
+
+#left-arrow {
+    position: relative;
+    left: 0px;
+    top: 80px;
+}
+
+.images {
+    display: inline;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1;
+    grid-gap: 5px;
+    position: relative;
+    top: -60px;
+    left: 140px;
+}
+
+.company-badge {
+    height: 110px;
+    width: 220px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: 1;
+    grid-gap: 70px;
+    position: relative;
+    top: -100px;
+    left: 50px;
+}
+
+.footer {
+    margin: 40px;
+    width: 1360px;
+    position: relative;
+    top: -120px;
+    border-top: solid 2px;
+    border-color: black;
+}
+
+h2 {
+    color: red;
+}
+
+.locations-2 {
+    display: inline;
+}
+
+#copyright {
+    float: left;
+}
+
+#powered {
+    float: right;
+}
+
+.sm-icons {
+    margin: 6px;
+}
+
+.subtext {
+    height: 1px;
+    font-size: 13px;
+}
+
+.title {
+    font-size: 30px;
+    height: 20px;
+}
+
+p {
+    font-size: 13px;
+}
+
+#address {
+    width: 180px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+#location-icon {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    top: 10px;
+}
+
+#location-icons {
+    display: inline-block;
+    margin: 20px;
+}
+
+#map {
+    display: inline-block;
+}
+
+.cicons {
+    margin-right: 5px;
+    margin-top: 10px;
+    position: relative;
+    top: 5px;
+}
+
+#text {
+    width: 350px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        position: relative;
+        top: 30px;
+    }
+    
+    .headquarters {
+        margin-bottom: 20px;
+    }
+
+    .location {
+        width: 320px;
+    }
+
+    .getintouch {
+        position: relative;
+        top: -60px;
+    }
+
+    .img-carousel {
+        width: 320px;
+        position: relative;
+        margin: 40px 20px 40px 20px;
+        left: -120px;
+    }
+    
+    #right-arrow {
+        transform: rotateY(180deg);
+        position: relative;
+        height: 25px;
+        top: -80px;
+        left: 450px;
+        display: block;
+        z-index: 50;
+    }
+    
+    #left-arrow {
+        position: relative;
+        left: 110px;
+        top: -35px;
+        height: 25px;
+    }
+    
+    .images {
+        display: inline;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1;
+        grid-gap: 2px;
+    }
+    
+    .company-badge {
+        height: 18px;
+        width: 48px;
+    }
+    
+    .contact {
+        width: 300px;
+        position: relative;
+        left: 30px;
+        display: block;
+    }
+    
+    .footer {
+        margin: 10px;
+        width: 360px;
+        position: relative;
+        top: -140px;
+        border-top: solid 2px;
+        border-color: black;
+    }
+    
+    h2 {
+        color: red;
+    }
+    
+    #copyright {
+        float: left;
+    }
+    
+    #powered {
+        float: left;
+        font-size: 8px;
+    }
+    
+    .sm-icons {
+        margin: 6px;
+    }
+    
+    .subtext {
+        height: 1px;
+        font-size: 13px;
+    }
+    
+    .title {
+        font-size: 18px;
+        height: 25px;
+    }
+    
+    p {
+        font-size: 9px;
+        width: 200px;
+        line-height: 10px;
+    }
+    
+    #address {
+        width: 143px;
+        font-size: 11px;
+        display: inline-block;
+        position: relative;
+        top: -20px;
+    }
+    
+    #location-icon {
+        display: inline-block;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        top: -15px;
+        height: 22px;
+    }
+    
+    #location-icons {
+        display: inline-block;
+        margin: 5px;
+        font-size: 6px;
+        position: relative;
+        top: -80px;
+        left: 150px;
+    }
+    
+    #map {
+        display: inline-block;
+        height: 87px;
+        width: 150px;
+    }
+    
+    .cicons {
+        margin-right: 5px;
+        position: relative;
+        top: -1px;
+        height: 10px;
+    }
+    
+    #text {
+        width: 311px;
+        font-size: 9px;
+    }
+
+    .subtext {
+        font-size: 10px;
+        height: 5px;
+
+    }
+
+    .sm-icons {
+        height: 23px;
+    }
+}

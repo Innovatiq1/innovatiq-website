@@ -1,0 +1,255 @@
+
+.decorations {
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    z-index: 50;
+}
+
+.arrow {
+    position: absolute;
+    height: 180px;
+    top: 750px;
+}
+
+.yellow-circle {
+    position: relative;
+    top: 830px;
+    left: 850px;
+}
+
+.gray-circle1 {
+    position: relative;
+    top: 830px;
+    left: 930px;
+}
+
+.gray-circle2 {
+    position: relative;
+    top: 830px;
+    left: 1010px;
+}
+
+.red-circle {
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+
+.brown-cross1 {
+    position: relative;
+    top: 890px;
+    left: 500px;
+}
+
+.brown-cross2 {
+    position: relative;
+    top: 1020px;
+    left: 1200px;
+}
+
+.brown-circle {
+    position: relative;
+    top: 500px;
+    left: 1290px;
+}
+
+.big-red-circle {
+    position: absolute;
+    top: 1300px;
+    left: 1310px;
+}
+
+.deco-gray-circle {
+    position: absolute;
+    top: 800px;
+    right: 200px
+}
+
+.deco-arrow-1 {
+    position: absolute;
+    top: 1300px;
+    right: 130px;
+}
+
+.yellow-cross {
+    position: absolute;
+    top: 1330px;
+    left: 730px;
+}
+
+.deco-arrow-2 {
+    position: absolute;
+    top: 1950px;
+    left: 1180px;
+}
+
+.deco-half-gray-circle {
+    position: absolute;
+    top: 2900px;
+    left: 1330px;
+}
+
+.deco-arrow-3 {
+    position: absolute;
+    top: 4200px;
+    right: 30px;
+    display: block;
+    z-index: 40;
+}
+
+.deco-yellow-circle {
+    position: absolute;
+    top: 4250px;
+    left: 810px;
+    display: block;
+    z-index: 40;
+}
+
+.deco-big-yellow-circle {
+    position: absolute;
+    top: 4980px;
+    left: 1150px;
+    display: block;
+    z-index: 40;
+}
+
+.brown-cross3 {
+    position: absolute;
+    top: 1950px;
+    right: 120px;
+}
+
+.yellow-cross2 {
+    position: absolute;
+    top: 4250px;
+    left: 220px;
+    display: block;
+    z-index: 40;
+}
+
+@media only screen and (max-width: 600px) {
+    .decorations {
+        
+    }
+
+    .arrow {
+        position: absolute;
+        height: 62px;
+        top: 188px;
+        left: -30px;
+    }
+
+    .red-circle {
+        position: absolute;
+        height: 14px;
+        top: 20px;
+        left: -30px;
+    }
+
+    .brown-circle {
+        position: absolute;
+        height: 14px;
+        top: 120px;
+        left: 320px;
+    }
+
+    .yellow-circle {
+        position: relative;
+        top: 205px;
+        left: 210px;
+        height: 3px;
+    }
+    
+    .gray-circle1 {
+        position: relative;
+        top: 205px;
+        left: 220px;
+        height: 3px;
+    }
+    
+    .gray-circle2 {
+        position: relative;
+        top: 205px;
+        left: 230px;
+        height: 3px;
+    }
+
+    .brown-cross1 {
+        position: absolute;
+        top: 240px;
+        left: 150px;
+        height: 8px;
+    }
+
+    .brown-cross2 {
+        position: absolute;
+        height: 8px;
+        top: 265px;
+        left: 315px;
+    }
+
+    .deco-gray-circle {
+        height: 14px;
+        position: absolute;
+        top: 230px;
+        left: -50px;
+    }
+
+    .deco-arrow-1 {
+        position: absolute;
+        height: 70px;
+        top: 775px;
+        left: -50px;
+    }
+
+    .yellow-cross {
+        height: 8px;
+        position: absolute;
+        top: 470px;
+        left: 150px;
+    }
+
+    .big-red-circle {
+        height: 77px;
+        top: 780px;
+        position: absolute;
+        left: 290px;
+    }
+
+    .deco-arrow-2 {
+        height: 60px;
+        position: absolute;
+        top: 880px;
+        left: 280px;
+    }
+
+    .deco-half-gray-circle {
+        height: 70px;
+        position: absolute;
+        top: 1470px;
+        left: 290px;
+    }
+
+    .deco-arrow-3 {
+        height: 51px;
+        position: absolute;
+        top: 1930px;
+        left: -45px;
+    }
+
+    .deco-yellow-circle {
+        height: 7px;
+        position: absolute;
+        top: 1967px;
+        left: 150px;
+    }
+
+    .deco-big-yellow-circle {
+        height: 37px;
+        position: absolute;
+        top: 2150px;
+        left: 250px;
+    }
+
+}

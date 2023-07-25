@@ -1,0 +1,30 @@
+.container  {
+    position: relative;
+    margin-top: 100px;
+    font-family: 'Nunito';
+}
+
+.header {
+    
+}
+
+.inner {
+}
+
+.main {
+    position: relative;
+    width: 1440px;
+    height: 5985px;
+    overflow: hidden;
+    top: -10px;
+    left: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        position: relative;
+        width: 105%;
+        height: 2967px;
+        overflow: hidden;
+    }
+}

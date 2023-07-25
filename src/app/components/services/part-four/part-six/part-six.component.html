@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="img-carousel">
+        <img id="left-arrow" src="/assets/part-six/carousel-arrow.png" alt="carousel-arrow" (click)="reverseSlide()">
+        <div class="images">
+            <img class="company-badge"
+            *ngFor="let company of companies"
+            [src]="company">
+        </div>
+        <img id="right-arrow" src="/assets/part-six/carousel-arrow.png" alt="carousel-arrow" (click)="moveSlide()">
+    </div>
+    <div class="contact">
+        <div class="headquarters">
+            <p class="subtext">INNOVATIQ TECHNOLOGIES PTE. LTD</p>
+            <h2 class="title">Headquarters</h2>
+            <p id="text">
+                We provide services in Manufacturing, Education, Healthcare, Security and provide teams to support organizations 
+                on their digital transformation journey.</p>
+            <p><img class="cicons" src="/assets/part-six/call.png"> +(65) 674- 20955</p>
+            <p><img class="cicons" src="/assets/part-six/email.png"> @innovatiq.com.sg</p>
+            <p><img class="cicons" src="/assets/part-six/small-global.png"> https: //innovatiq.com.sg/index</p>
+        </div>
+        <div class="locations">
+            <p class="subtext">OUR LOCATIONS</p>
+            <h2 class="title">Where to find us</h2>
+            <img id="location-icon" src="/assets/part-six/location.png"> 
+            <p id="address">229, Mountbatten Road
+                #01-11, Mountbatten Square
+                Singapore 398007</p>
+            <img id="map" src="/assets/part-six/map.png">
+            <div id="location-icons" class="locations-2">
+                <p><img src="/assets/part-six/red-location.png"> Singapore</p>
+                <p><img src="/assets/part-six/red-location.png"> India</p>
+                <p><img src="/assets/part-six/red-location.png"> Malaysia</p>
+            </div>
+        </div>
+        <div class="getintouch">
+            <p class="subtext">GET IN TOUCH</p>
+            <h2 class="title">Innovatiq Social Links</h2>
+            <p>You can find us on social media</p>
+            <div class="socials">
+                <img class="sm-icons" src="/assets/part-six/linkedin.png">
+                <img class="sm-icons" src="/assets/part-six/twitter.png">
+                <img class="sm-icons" src="/assets/part-six/facebook.png">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p id="copyright">&copy; 2023 Innovatiq. All Rights Reserved <br> Terms of Service Private Policy</p>
+        <p id="powered">Powered by Innovatiq</p>
+    </div>
+</div>

@@ -1,0 +1,247 @@
+.main-image-container {
+    position: absolute;
+    font-family: 'Nunito';
+    top: -10px;
+    left: 650px;
+}
+
+.badge-container1 {
+    background-color: white;
+    box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    text-align: center;
+    width: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 6px;
+    display: block;
+    z-index: 30;
+    position: absolute;
+    top: 190px;
+    left: 220px;
+}
+
+.badge-container2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 130px;
+    height: 20px;
+    font-size: 10px;
+    position: absolute;
+    top: 520px;
+    left: 550px;
+    text-align: left;
+    display: block;
+    z-index: 30;
+}
+
+.badge-container3 {
+    background-color: white;
+    box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 200px;
+    height: 75px;
+    position: absolute;
+    top: 600px;
+    left: 100px;
+    display: block;
+    z-index: 30;
+}
+
+.bc3subtext1 {
+    font-size: 8px;
+    color: rgb(170, 170, 170);
+    margin-top: 5px;
+    margin-bottom: 8px;
+    
+}
+
+.bc3subtext2 {
+    font-size: 10px;
+    color: rgb(218, 22, 139);
+    margin-top: 10px;
+}
+
+.bc3subtext3 {
+    font-size: 15px;
+    line-height: 17px;
+    padding-top: 7px;
+    margin: 0;
+}
+
+.bc3content {
+    float: left;
+    width: 60%;
+    line-height: 2px;
+    height: 100%;
+}
+
+.bc2text {
+    font-size: 10px;
+    position: relative;
+    top: -45px;
+    left: 40px;
+}
+
+.bc2subtext {
+    color: lightgray;
+    font-size: 6px;
+    position: relative;
+    top: -55px;
+    left: 40px;
+}
+
+.main-image {
+    height: 780px;
+}
+
+img {
+    height: 30px;
+    position: relative;
+    top: -5px;
+}
+
+.img2 {
+    float: left;
+    padding-top: 20px;
+    padding-right: 2px;
+    padding-left: 5px;
+    height: 30px;
+}
+
+.img3{
+    height: 5px;
+    padding: 2px;
+    position: relative;
+    top: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-image-container {
+        position: absolute;
+        font-family: 'Nunito';
+        top: -78px;
+        left: 185px;
+    }
+    
+    .badge-container1 {
+        background-color: white;
+        box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        text-align: center;
+        width: 20px;
+        padding-left: 0.2px;
+        padding-right: 0.2px;
+        padding-top: 0.5px;
+        padding-bottom: 0.5px;
+        font-size: 2px;
+        display: block;
+        z-index: 30;
+        position: absolute;
+        top: 49px;
+        left: 57px;
+    }
+    
+    .badge-container2 {
+        background-color: white;
+        border-radius: 1px;
+        padding: 0px;
+        width: 25px;
+        height: 5px;
+        font-size: 2px;
+        position: absolute;
+        top: 137px;
+        left: 140px;
+        text-align: left;
+        display: block;
+        z-index: 30;
+    }
+    
+    .badge-container3 {
+        background-color: white;
+        border-radius: 1px;
+        width: 28px;
+        height: 10px;
+        position: absolute;
+        top: 135px;
+        left: 20px;
+        display: block;
+        z-index: 30;
+    }
+    
+    .bc3subtext1 {
+        font-size: 1px;
+        color: rgb(170, 170, 170);
+        margin-top: 0.3px;
+        margin-bottom: 0px;
+        
+    }
+    
+    .bc3subtext2 {
+        font-size: 1px;
+        color: rgb(218, 22, 139);
+        margin-top: 0px;
+    }
+    
+    .bc3subtext3 {
+        font-size: 1.5px;
+        line-height: 1.4px;
+        padding-top: 0.5px;
+        margin: 0.2;
+    }
+    
+    .bc3content {
+        float: left;
+        width: 60%;
+        line-height: 0.5px;
+        height: 100%;
+        position: relative;
+        left: 15px;
+        top: 2px;
+    }
+    
+    .bc2text {
+        font-size: 1.5px;
+        position: relative;
+        top: -1px;
+        left: 7px;
+    }
+    
+    .bc2subtext {
+        color: lightgray;
+        font-size: 1px;
+        position: relative;
+        top: -2px;
+        left: 7px;
+    }
+    
+    .main-image {
+        height: 200px;
+    }
+    
+    img {
+        height: 3px;
+        position: absolute;
+        top: 1px;
+        left: 1px;
+    }
+    
+    .img2 {
+        float: left;
+        padding-top: 2px;
+        padding-right: 3px;
+        padding-left: 0.2px;
+        height: 5px;
+    }
+    
+    .img3{
+        height: 0.5px;
+        padding: 0.7px;
+        position: relative;
+        top: 0.8px;
+        left: -0.2px;
+    }
+}

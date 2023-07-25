@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="gray-box">
+        <div class="content">
+            <p>Our Latest Stories</p>
+            <h1 id="one">Innovatiq</h1>
+            <h1>Insights</h1>
+            <button>Read More <img id="arrow" src="/assets/part-four/button-arrow.png"></button>
+            <div class="img-carousel">
+                <app-img-cards
+                *ngFor="let card of cards"
+                [card]="card"></app-img-cards>
+            </div>
+            <span id="dot-1" class="dot"></span>
+            <span id="dot-2" class="dot"></span>
+            <span id="dot-3" class="dot"></span>
+        </div>
+    </div>
+</div>
