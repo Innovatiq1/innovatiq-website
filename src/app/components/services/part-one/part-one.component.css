@@ -1,0 +1,24 @@
+.slanted-box {
+    height: 880px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 1365px;
+    min-width: 1150px;
+    margin-top: 133.22px;
+    display:block;
+    z-index: -1;
+}
+
+@media only screen and (max-width: 600px) {
+    .slanted-box {
+        height: 10%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 90%;
+        min-width: 360px;
+        display:block;
+        z-index: -1;
+        position: relative;
+        top: -70px;
+    }
+}
