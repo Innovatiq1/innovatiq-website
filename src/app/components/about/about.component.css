@@ -25,6 +25,10 @@ p{
 .two{
     margin-top: 30px;
 }
+.col-5{
+    border-left: 2px solid red;
+    height: 80%;  
+}
 .Box-1{
     margin-left: 20px;
     background-color: #e9ecef;
@@ -43,4 +47,25 @@ p{
     padding-right: 10px;
     padding-left: 10px;
     border-radius: 10px;
+}
+.Box-2 .circle{
+    margin-top: 100px;
+    margin-left: -48px;
+}
+.image{
+    position: relative;
+    left: 65px;
+    margin-left: -70px;
+}
+.Krishna{
+    margin-top: 10px;
+    padding-top: 20px;
+    width: 60%;
+    height: 250px;
+    padding-left: 100px;
+    background-color: #D9D9D9;
+    border-radius: 20px; 
+}
+.col-1{
+    margin-top: 100px;
 }
