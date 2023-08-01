@@ -32,7 +32,20 @@ import { AboutComponent } from './components/about/about.component';
     ServiceComponent,
     CareerComponent,
           ContactformComponent,
-          AboutComponent
+          AboutComponent,
+          ServicesHeaderComponent,
+          PartOneComponent,
+          SearchButtonComponent,
+          MainImageComponent,
+          PartTwoComponent,
+          PartThreeComponent,
+          PartFourComponent,
+          ImgCardsComponent,
+          PartFiveComponent,
+          PartSixComponent,
+          DecorationsComponent
+
+
   ],
   imports: [
     BrowserModule,
