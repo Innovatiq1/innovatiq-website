@@ -10,6 +10,7 @@ import { ServiceComponent } from './components/service/service.component';
 // import { AlertModule } from 'ngx-bootstrap';
 import { CareerComponent } from './components/career/career.component';
 import { ContactformComponent } from './contactform/contactform.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ContactformComponent } from './contactform/contactform.component';
     ServiceComponent,
     
     CareerComponent,
-          ContactformComponent
+          ContactformComponent,
+          AboutComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,46 @@
+.container{
+    margin-top: 100px;
+}
+p{
+    font-size: 13px;
+}
+.circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    margin-left: -18px;
+    background-color: red;
+   }
+.circle-grey{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -38px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    background-color: #a3adb3;
+    
+}
+.two{
+    margin-top: 30px;
+}
+.Box-1{
+    margin-left: 20px;
+    background-color: #e9ecef;
+    width: fit-content;
+    height: fit-content;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.Box-2{
+    margin-left: 20px;
+    background-color: #e9ecef;
+    width: fit-content;
+    height: fit-content;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
