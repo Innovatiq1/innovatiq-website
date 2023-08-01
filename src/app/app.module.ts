@@ -21,7 +21,7 @@ import { DecorationsComponent } from './components/services/decorations/decorati
 // import { AlertModule } from 'ngx-bootstrap';
 import { CareerComponent } from './components/career/career.component';
 import { ContactformComponent } from './contactform/contactform.component';
-import { ServicesComponent } from './components/services/services.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -32,18 +32,20 @@ import { ServicesComponent } from './components/services/services.component';
     ServiceComponent,
     CareerComponent,
           ContactformComponent,
-          ServicesComponent,
-            ServicesHeaderComponent,
-            PartOneComponent,
-            SearchButtonComponent,
-            MainImageComponent,
-            PartTwoComponent,
-            PartThreeComponent,
-            PartFourComponent,
-            ImgCardsComponent,
-            PartFiveComponent,
-            PartSixComponent,
-            DecorationsComponent
+          AboutComponent,
+          ServicesHeaderComponent,
+          PartOneComponent,
+          SearchButtonComponent,
+          MainImageComponent,
+          PartTwoComponent,
+          PartThreeComponent,
+          PartFourComponent,
+          ImgCardsComponent,
+          PartFiveComponent,
+          PartSixComponent,
+          DecorationsComponent
+
+
   ],
   imports: [
     BrowserModule,
