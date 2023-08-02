@@ -22,6 +22,7 @@ import { DecorationsComponent } from './components/services/decorations/decorati
 import { CareerComponent } from './components/career/career.component';
 import { ContactformComponent } from './contactform/contactform.component';
 import { AboutComponent } from './components/about/about.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { AboutComponent } from './components/about/about.component';
           ImgCardsComponent,
           PartFiveComponent,
           PartSixComponent,
-          DecorationsComponent
+          DecorationsComponent,
+          ServicesComponent
 
 
   ],
