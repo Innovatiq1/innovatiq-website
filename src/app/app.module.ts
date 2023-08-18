@@ -23,6 +23,13 @@ import { CareerComponent } from './components/career/career.component';
 import { ContactformComponent } from './contactform/contactform.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
+import { IndustriesComponent } from './components/industries/industries.component';
+import { ItInfraComponent } from './components/service/it-infra/it-infra.component';
+import { CyberSecurityComponent } from './components/service/cyber-security/cyber-security.component';
+import { BusinessAppDevComponent } from './components/service/business-app-dev/business-app-dev.component';
+import { ConsultingServicesComponent } from './components/service/consulting-services/consulting-services.component';
+import { DigitalTransComponent } from './components/service/digital-trans/digital-trans.component';
+import { CloudServiceComponent } from './components/service/cloud-service/cloud-service.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +52,14 @@ import { ServicesComponent } from './components/services/services.component';
           PartFiveComponent,
           PartSixComponent,
           DecorationsComponent,
-          ServicesComponent
+          ServicesComponent,
+          IndustriesComponent,
+          ItInfraComponent,
+          CyberSecurityComponent,
+          BusinessAppDevComponent,
+          ConsultingServicesComponent,
+          DigitalTransComponent,
+          CloudServiceComponent
 
 
   ],

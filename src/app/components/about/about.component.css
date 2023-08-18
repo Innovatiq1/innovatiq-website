@@ -1,5 +1,5 @@
 .container{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 p{
     font-size: 13px;
@@ -11,6 +11,7 @@ p{
     margin-left: -18px;
     background-color: red;
    }
+
 .circle-grey{
     border-radius: 50%;
     width: 50px;
@@ -42,6 +43,7 @@ p{
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 1px;
     border-radius: 10px;
 }
 .Box-2{
@@ -51,6 +53,7 @@ p{
     height: fit-content;
     padding-right: 10px;
     padding-left: 10px;
+    padding-bottom: 1px;
     border-radius: 10px;
 }
 .Box-2 .circle{
@@ -68,8 +71,9 @@ p{
     width: 60%;
     height: 250px;
     padding-left: 100px;
-    background-color: #D9D9D9;
+    background-color: #F6F6F6;
     border-radius: 20px; 
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
 }
 @media only screen and (max-width: 1200px) {
     .Krishna{
@@ -81,21 +85,61 @@ p{
 .col-md-1{
     margin-top: 100px;
 }
-/* .col-md-10 img{
-    width: 120%;
-    height: 80%;
-}
-.text_over_image {
-    position: absolute;
-    width: 682.18px;
-    height: 54px;
-    left: 100px;
-    top: 2200px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 27px;
-    text-transform: capitalize;
-    color: #FFFFFF;
+
+.learn {
+    border: none;
+    background-color: #FFAE3B;
+    border-radius: 20px;
+    color: #fff;
+    width: 15%;
+    height: 40px;
+    text-align: center;
+    margin-left: 90px;
+    margin-top: 50px;
+  }
+  /* .vision-image img{
+    text-align: left;
+    width: 107%;
+    margin-left: -40px;
+    margin-bottom: 30px;
+    background: black;
+    object-fit: cover;
+    opacity: 0.5;
   } */
+ 
+  .bg-overlay {
+    background: linear-gradient(rgba(42, 41, 41, 0.7), rgba(62, 59, 59, 0.7)), url("/assets/career-page image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 700px;
+    width: 170%;
+    padding-top: 50px;
+    margin-left: -15px;
+    margin-bottom: 50px;
+}
+.mission{
+    margin-top: 250px;
+    margin-left: 40px;
+}
+  /* .vision{
+    color: white;
+    position: absolute;
+    top: 166vw;
+    left: 15vw;
+  } */
+  /* .vision-text{
+    color: white;
+    position: absolute;
+    top: -8vw;
+    left: -11vw;
+    /* width: 50%; *
+  } */
+  .rect img{
+    position: absolute;
+    width: 94.5%;
+    top: 142.1vw;
+    left: 5.9vw;
+    opacity: 0.6;
+  }

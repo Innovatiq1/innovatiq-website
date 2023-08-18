@@ -1,0 +1,29 @@
+.dec {
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+li:hover {
+text-decoration: underline;
+color: #976924;
+}
+
+li a:hover {
+    color: #976924; 
+    text-decoration: underline;
+}
+a:active {
+    color: #976924; 
+}
+
+.companylogo {
+    height: 40px;
+    width: 100px;
+}
+
+.color{
+    color: #976924; 
+}

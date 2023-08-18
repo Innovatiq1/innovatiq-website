@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-career',
@@ -8,8 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class CareerComponent implements OnInit {
 
   constructor() { }
+  @ViewChild("fileDropRef", { static: false })
+  fileDropEl!: ElementRef;
+  files: any[] = [];
 
   ngOnInit(): void {
   }
+ 
+  upload() {
+    document.getElementById('input')?.click();
+  }
+  
 
 }
