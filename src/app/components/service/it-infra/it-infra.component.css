@@ -1,12 +1,16 @@
-.header{
-    font-family: 'Nunito';
-background-color:#e9ecef;
-/* padding: 100px; */
-width: 95%;
-height: 600px;
-border-radius: 20px;
-margin: 40px;
-}
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(42, 41, 41, 0.7), rgba(62, 59, 59, 0.7)), url("/assets/Service/Global Infrastructure Banner.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+  
 .create{
     font-family: 'Nunito';
     background-color: white;

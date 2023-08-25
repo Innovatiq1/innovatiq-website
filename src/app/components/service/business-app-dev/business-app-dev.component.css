@@ -1,5 +1,61 @@
-.header{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    padding: 100px;
+
+    .create{
+        font-family: 'Nunito';
+        background-color: white;
+        border-radius: 20px;
+        width: 100%;
+        height: 120px;
+        margin-left: 90px;
+        padding: 15px;
+        box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
     }
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 130px;
+        width: 50%;
+    }
+    .container-fluid{
+        font-family: 'Nunito';
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding-left: 50px;
+        /* margin-left: 10px; */
+    }
+    header.masthead {
+        padding-top: 10.5rem;
+        padding-bottom: 6rem;
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(rgba(42, 41, 41, 0.7), rgba(62, 59, 59, 0.7)), url("/assets/Service/business.jpg");
+        height: 500px;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+      }
+      
+      /* header.masthead .masthead-subheading {
+        font-size: 1.5rem;
+        /* font-style: italic; *
+        line-height: 1.5rem;
+        margin-bottom: 25px;
+        font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      } */
+    /* .bg-overlay {
+        background: linear-gradient(rgba(42, 41, 41, 0.7), rgba(62, 59, 59, 0.7)), url("/assets/Service/Global Infrastructure Banner.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center center; *
+        color: #fff;
+        height: 500px;
+        width:100%;
+        /* width: 1200px; *
+        /* padding-top: 50px; *
+        margin-left: 0px;
+     
+        /* margin-bottom: 100px; */
+        /* border-radius: 20px; */
+        /* border-bottom-right-radius: 30%; 
+    } */
