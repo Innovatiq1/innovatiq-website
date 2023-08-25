@@ -1,5 +1,5 @@
 .container{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 h2{
   color: red;
@@ -47,9 +47,13 @@ label{
 .col-10{
   width: 70vw;
   margin-top: -25px;
-      overflow-x: auto;
+      overflow-x: scroll;
       overflow-y: hidden;
        white-space: nowrap;
+}
+.col-10::-webkit-scrollbar {
+  background-color: #fff;  
+  width: 0;
 }
 .col-10 img{
   padding-left: 30px;
