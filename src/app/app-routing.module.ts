@@ -20,67 +20,72 @@ const routes: Routes = [
   // {
   //   path:'',
   //   component:HomeComponent,
-    
+
   // },
   // {
   //   path:'',
   //   component:ServicesComponent,
-    
+
   // },
+  {
+    path:'',
+    component:ServiceComponent,
+
+  },
   {
     path:'service',
     component:ServiceComponent,
-    
+
   },
   {
     path:'industries',
     component:IndustriesComponent,
-    
+
   },
   {
     path:'about',
     component:AboutComponent,
-    
+
   },
   {
     path:'career',
     component:CareerComponent,
-    
+
   },
   {
     path:'it-infra',
     component:ItInfraComponent,
-    
+
   },
   {
     path:'cyber-security',
     component:CyberSecurityComponent,
-    
+
   },
   {
     path:'business-app',
     component:BusinessAppDevComponent,
-    
+
   },
   {
     path:'consulting-services',
     component:ConsultingServicesComponent,
-    
+
   },
   {
     path:'digital-trans',
     component:DigitalTransComponent,
-    
+
   },
   {
     path:'cloud-service',
     component:CloudServiceComponent,
-    
+
   },
   {
     path:'contact',
     component:ContactformComponent,
-    
+
   },
 ];
 

@@ -12,11 +12,11 @@ color: #976924;
 }
 
 li a:hover {
-    color: #976924; 
+    color: #976924;
     text-decoration: underline;
 }
 a:active {
-    color: #976924; 
+    color: #976924;
 }
 
 .companylogo {
@@ -25,5 +25,5 @@ a:active {
 }
 
 .color{
-    color: #976924; 
+    color: #976924;
 }
