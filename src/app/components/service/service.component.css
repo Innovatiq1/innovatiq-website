@@ -330,6 +330,7 @@ select:disabled {
   } */
 .find{
     font-weight: bold;
+    cursor: pointer;
 }
 .find:hover{
 color: rgb(139, 90, 11);
