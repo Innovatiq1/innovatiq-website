@@ -11,5 +11,7 @@ export class SendEmaiService {
   sendEmail(url: string, data: any) {
     return this.http.post(url, data);
   }
-
+ contactEmail(url: string, data: any) {
+    return this.http.post(url, data);
+  }
 }

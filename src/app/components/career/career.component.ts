@@ -16,6 +16,7 @@ export class CareerComponent implements OnInit {
   @ViewChild('fileDropRef', { static: false })
   fileDropEl!: ElementRef;
   // files: any[] = [];
+  message = '';
   careerForm!: FormGroup
   ngOnInit(): void {
     this.careerForm = this._fb.group({
@@ -61,13 +62,14 @@ export class CareerComponent implements OnInit {
     formData.append('phone_number', this.careerForm.get('phone_number')?.value);
     formData.append('position', this.careerForm.get('position')?.value);
     formData.append('discription', this.careerForm.get('discription')?.value);
-console.log("formData",formData)
-    this.http.sendEmail("http://localhost:3000/sendmail", formData).subscribe(
+   console.log("formData",formData)
+    this.http.sendEmail("http://localhost:3002/sendmail", formData).subscribe(
       data => {
-        let res:any = data;
-        console.log(
-          `👏 > 👏 > 👏 > 👏 ${formData} is successfully register and mail has been sent and the message id is ${res.messageId}`
-        );
+        // let res:any = data;
+        if(data){
+         this.message = 'Email sent successfully!!!'
+        }
+        console.log(data,"ppop");
       },
       err => {
         console.log(err);

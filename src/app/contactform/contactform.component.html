@@ -55,31 +55,31 @@
       <h3>For themselves</h3>
       <p>Let's talk about what you want to accomplish
         and how we can make it happen.</p>
-      <form>
+      <form [formGroup]="contactForm">
         <label>Your Name</label>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Enter your name">
+          <input type="text" class="form-control" placeholder="Enter your name" formControlName="name">
         </div>
         <label>Your Email</label>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Enter valid Email id">
+          <input type="text" class="form-control" placeholder="Enter valid Email id" formControlName="email">
         </div>
         <label>Phone</label>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Enter number">
+          <input type="text" class="form-control" placeholder="Enter number" formControlName="phone">
         </div>
         <label>Subject</label>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="What enquiry...">
+          <input type="text" class="form-control" placeholder="What enquiry..." formControlName="subject">
         </div>
         <label>Message (optional)</label>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="Type your Message..." style="height: 100px;">
+          <input type="text" class="form-control" placeholder="Type your Message..." style="height: 100px;" formControlName="message">
         </div>
         <img class="x" src="assets/Contact-form/x- shape (1).svg">
       </form>
       <!-- <img class="x" src="assets/Contact-form/x- shape (1).svg"> -->
-      <button class="submit" style="font-size: larger;">Submit       
+      <button class="submit" style="font-size: larger;" (click)="submit()">Submit
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: white"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
     </button>
 
