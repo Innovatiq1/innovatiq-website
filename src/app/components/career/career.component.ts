@@ -1,6 +1,7 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { SendEmaiService } from 'src/app/restApi/send-emai.service';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-career',
@@ -20,7 +21,7 @@ export class CareerComponent implements OnInit {
   careerForm!: FormGroup
   ngOnInit(): void {
     this.careerForm = this._fb.group({
-      name: [''],
+      name: ['',Validators.required],
       phone_number: [''],
       position: [''],
       discription: [''],
@@ -55,27 +56,45 @@ export class CareerComponent implements OnInit {
     //   // name: this.nameFormControl.value,
     //   // email: this.emailFormControl.value
     // }
-
-    const formData = new FormData();
-    formData.append('file', this.careerForm.get('resume')?.value);
-    formData.append('name', this.careerForm.get('name')?.value);
-    formData.append('phone_number', this.careerForm.get('phone_number')?.value);
-    formData.append('position', this.careerForm.get('position')?.value);
-    formData.append('discription', this.careerForm.get('discription')?.value);
-   console.log("formData",formData)
-    this.http.sendEmail("http://localhost:3002/sendmail", formData).subscribe(
-      data => {
-        // let res:any = data;
-        if(data){
-         this.message = 'Email sent successfully!!!'
-        }
-        console.log(data,"ppop");
-      },
-      err => {
-        console.log(err);
-      },() => {
+if(this.careerForm.valid){
+  const formData = new FormData();
+  formData.append('file', this.careerForm.get('resume')?.value);
+  formData.append('name', this.careerForm.get('name')?.value);
+  formData.append('phone_number', this.careerForm.get('phone_number')?.value);
+  formData.append('position', this.careerForm.get('position')?.value);
+  formData.append('discription', this.careerForm.get('discription')?.value);
+ console.log("formData",formData)
+ Swal.fire({
+  position: 'center',
+  icon: 'success',
+  title: 'Thank you! ',
+  text:'Your submission has been sent.',
+  showConfirmButton: true,
+  confirmButtonText: 'Okay!',
+  timer: 6000
+})
+  this.http.sendEmail("http://localhost:3002/sendmail", formData).subscribe(
+    data => {
+      // let res:any = data;
+      if(data){
+       this.message = 'Email sent successfully!!!'
       }
-    );
+      console.log(data,"ppop");
+    },
+    err => {
+      console.log(err);
+    },() => {
+    }
+  );
+}else{
+  Swal.fire({
+    icon: 'error',
+    title: 'Oops...',
+    text: 'Something went wrong!',
+    footer: 'Enter your name, contact number and upload your CV.'
+  })
+}
+
   }
 }
 
