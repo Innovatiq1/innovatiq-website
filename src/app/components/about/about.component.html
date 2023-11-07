@@ -152,6 +152,124 @@
           
         </div>
     </div>
+    <!-- <app-services-header></app-services-header> -->
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row mx-auto">
+          <div class="col-md-6 mail">
+            <img src="assets/Contact-form/receive mail.svg">
+          </div>
+          <div class="col-md-6 mail">
+            <img src="assets/Contact-form/incoming call.svg">
+          </div>
+        </div>
+        <div class="row singapore">
+          <div class="col-md-3">
+            <img src="assets/location (11) 1.png" />
+          </div>
+          <div class="col-md-8">
+            <h5>HQ Singapore</h5>
+            <p>229, Mountbatten Road<br>
+              #01-11,Mountbatten Square<br>
+              Singapore 398007</p>
+          </div>
+        </div>
+        <img class="ellipse" src="assets/Contact-form/Ellipse 56.svg">
+        <div class="row mt-3" style="margin-left: 20px;">
+          <div class="col-md-3">
+            <img src="assets/location (11) 1.png" />
+          </div>
+          <div class="col-md-8">
+            <h5>Malaysia</h5>
+            <p>Office 41, Level 1, Resource Centre - IIC,<br>
+              Technology Park Malaysia,<br>
+              Bukit Jalil Kuala Lumpur,<br>
+              Malaysia - 57000.</p>
+          </div>
+        </div>
+        <img class="arrow" src="assets/Contact-form/Arrow 23.svg">
+        <div class="row mt-1">
+          <div class="col-md-3">
+            <img src="assets/location (11) 1.png" />
+          </div>
+          <div class="col-md-8" style="margin-left: 20px;">
+            <h5>India</h5>
+            <p>Level 1, Unit 2, Salarpuria Sattva Knowledge City,<br>
+              Inorbit Mall Road, Raidurg Village,<br>
+              Hitech City,Hyderabad, <br>
+              Telangana-500081 (INDIA).</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="assets/Contact-form/x- shape.svg">
+        <p> Our Offices</p>
+        <h2>Get in Touch</h2>
+        <h3>For themselves</h3>
+        <p>Let's talk about what you want to accomplish
+          and how we can make it happen.</p>
+        <form [formGroup]="contactForm">
+          <label>Your Name</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter your name" formControlName="name" required>
+          </div>
+          <label>Your Email</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter valid Email id" formControlName="email">
+          </div>
+          <label>Phone</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Enter number" formControlName="phone">
+          </div>
+          <label>Subject</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="What enquiry..." formControlName="subject">
+          </div>
+          <label>Message (optional)</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Type your Message..." style="height: 100px;" formControlName="message">
+          </div>
+          <img class="x" src="assets/Contact-form/x- shape (1).svg">
+        </form>
+        <!-- <img class="x" src="assets/Contact-form/x- shape (1).svg"> -->
+        <button class="submit" style="font-size: larger;" (click)="submit()">Submit
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: white"><path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path></svg>
+      </button>
+      </div>
+    </div>
+    <div class="service">
+        <h2 style="color: red;margin-left: 65px;">Our Technology <br>
+        <span style="color: black;">Patners</span></h2>
+        <img src="assets/Service/x- shape (2).svg" style="margin-left: -40px;margin-top: -50px;">
+        <h2 style="margin-top: -30px;margin-left: 20px;"></h2>
+        <!-- <img src="assets/Service/Arrow 25.svg" style="margin-left: 72vw;margin-top: -176px;"> -->
+        </div>
+      <div class="image-slider-container">
+        <div class="image-slider">
+          <img src="assets/aruba.png">
+          <img src="assets/aws.png">
+          <img src="assets/azure.png">
+          <img src="assets/cisco.png">
+          <img src="assets/dell.png">
+          <img src="assets/hcl.png">
+          <img src="assets/Hewlett_Packard_Enterprise.png">
+          <img src="assets/IBM 2.png">
+          <img src="assets/ste.png">
+        </div>
+      </div>
+    <!-- <div class="footer">
+      <div class="line mt-5"></div>
+      <div class="row mt-2">
+        <div class="col-md-10" style="margin-left: -30px;">
+          <h6>&#169;2023 Innovatiq. All Rights Reserved</h6>
+        </div>
+         <div class="col-2">Powered by Innovatiq</div> -->
+      <!-- </div> -->
+      <!-- <p style="margin-left: -30px;"> Terms of Service Private Policy</p> -->
+    <!-- </div> -->
+  </div>
+  
 
     <!-- <div class="col-md-10">
          <img  src="assets/images/Rectangle 37.png"> 

@@ -143,3 +143,127 @@ p{
     left: 5.9vw;
     opacity: 0.6;
   }
+  .container{
+    margin-top: 50px;
+  }
+  h2{
+    color: red;
+  }
+  input{
+    background-color: rgba(217, 217, 217, 0.5);
+    margin-top: 10px;
+  }
+  label{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .submit{
+    width: 167.03px;
+    Height: 47px;
+    padding-left: 15px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: rgba(151, 105, 36, 1);
+    padding-right: 15px;
+    margin-bottom: 20px;
+  }
+  /* .mail{
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(217, 217, 217, 0.42);
+    padding-top: 15px;
+    width: 120px;
+    height: 120px;
+    margin-right: 100px;
+    margin-left: 50px;
+  } */
+  .image-slider-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  .image-slider-container img{
+    padding: 20px;
+  }
+
+  .image-slider {
+    display: flex;
+    animation: scrollImages 20s linear infinite; /* Adjust the duration as needed */
+  }
+  .image-slider img {
+    width: 12vw;
+    height: auto;
+    margin: 0;
+  }
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%); /* Adjust to the width of a single image */
+    }
+  }
+  .mail img{
+    height: 90px;
+  }
+  .singapore{
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+  .col-1 img{
+    height: 130px;
+    margin-top: -10px;
+  }
+  .col-10{
+    width: 70vw;
+    margin-top: -25px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+         white-space: nowrap;
+  }
+  .col-10::-webkit-scrollbar {
+    background-color: #fff;  
+    width: 0;
+  }
+  .col-10 img{
+    padding-left: 30px;
+    padding-top: -38px ;
+  }
+  @media only screen and (max-width: 1200px) {
+    .ellipse{
+       padding-left: 45px;
+    }
+  }
+  .ellipse{
+    margin-left: -70px;
+  }
+  @media only screen and (max-width: 1200px) {
+    .arrow{
+       padding-left: 70px;
+       padding-top: 70px;
+    }
+  }
+  .arrow{
+    margin-left: -70px;
+    margin-top: -80px;
+  }
+  .x{
+    margin-left: 46vw;
+    margin-top: -40px;
+  }
+  .line{
+    border-bottom: 2px solid black;
+    width: 98vw;
+    margin-left: -70px;
+  }
+  @media only screen and (max-width: 1200px) {
+    .footer{
+       margin-left: 30px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .line{
+     margin-left: -30px;
+    }
+  }
+  

@@ -3,12 +3,14 @@
 }
 input{
   background-color: rgba(217, 217, 217, 0.5);
-  margin-top: 10px;
   border-radius: 10px;
+  border: none;
+  
 }
 label{
   font-size: 14px;
   font-weight: 500;
+  
 }
 
 .col-6 {
@@ -152,6 +154,45 @@ label{
 .mission{
   margin-top: 250px;
   margin-left: 110px;
+}
+.image-slider-container {
+  overflow: hidden; /* Add this line to hide the horizontal scrollbar */
+}
+
+.image-slider-container img {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.image-slider {
+  display: flex;
+  animation: scrollImages 20s linear infinite; /* Adjust the duration as needed */
+  overflow: hidden;
+}
+
+.image-slider img {
+  width: 12vw;
+  height: auto;
+  margin: 0;
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust to the width of a single image */
+  }
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%); /* Adjust to the width of a single image */
+  }
+  
 }
 
 /* .rectangle-3 {
