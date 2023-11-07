@@ -1,5 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 import { SendEmaiService } from 'src/app/restApi/send-emai.service';
 import Swal from 'sweetalert2';
 
@@ -11,9 +12,11 @@ import Swal from 'sweetalert2';
 export class CareerComponent implements OnInit {
 
   fileToUpload: File | null = null;
-  constructor(public _fb: FormBuilder,public http: SendEmaiService) {
+  constructor(public _fb: FormBuilder,public http: SendEmaiService,public router: Router) {
 
   }
+  @ViewChild('file')
+  file!: ElementRef;
   @ViewChild('fileDropRef', { static: false })
   fileDropEl!: ElementRef;
   // files: any[] = [];
@@ -70,7 +73,7 @@ if(this.careerForm.valid){
   title: 'Thank you! ',
   text:'Your submission has been sent.',
   showConfirmButton: true,
-  confirmButtonText: 'Okay!',
+  confirmButtonText: 'OK',
   timer: 6000
 })
   this.http.sendEmail("http://localhost:3002/sendmail", formData).subscribe(
@@ -86,6 +89,8 @@ if(this.careerForm.valid){
     },() => {
     }
   );
+  this.careerForm.reset();
+  
 }else{
   Swal.fire({
     icon: 'error',

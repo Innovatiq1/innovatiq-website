@@ -41,7 +41,7 @@ if(this.contactForm.valid){
     title: 'Thank you for getting in touch! ',
     text:'We appreciate you contacting Innovatiq.we will get back in touch with you soon!Have a great day!',
     showConfirmButton: true,
-    confirmButtonText: 'Okay!',
+    confirmButtonText: 'OK',
     timer: 6000
   })
 
@@ -58,6 +58,7 @@ if(this.contactForm.valid){
   },() => {
   }
 );
+this.contactForm.reset();
 }else {
   Swal.fire({
     icon: 'error',
