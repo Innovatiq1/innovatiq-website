@@ -30,6 +30,34 @@ font-family: 'Nunito';
 /* p{
     margin-left: 20px;
 } */
+.image-slider-container {
+    overflow: hidden;
+    width: 100%;
+  }
+  .image-slider-container img{
+    padding: 20px;
+  }
+  
+  .image-slider {
+    display: flex;
+    animation: scrollImages 20s linear infinite; /* Adjust the duration as needed */
+  }
+  
+  @keyframes scrollImages {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%); /* Adjust to the width of a single image */
+    }
+  }
+  
+  .image-slider img {
+    width: 12vw;
+    height: auto;
+    margin: 0;
+  }
+  
 @media only screen and (max-width: 1200px) {
     .col-md-4{
         position: absolute;
