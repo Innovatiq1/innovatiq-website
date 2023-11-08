@@ -45,7 +45,7 @@ if(this.contactForm.valid){
     timer: 6000
   })
 
- this.http.sendEmail("http://localhost:3002/contactMail", this.contactForm.value).subscribe(data => {
+ this.http.sendEmail("http://18.142.249.36:3004/contactMail", this.contactForm.value).subscribe(data => {
     console.log("data",data)
     let res:any = data;
     console.log(

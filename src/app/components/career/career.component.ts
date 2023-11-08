@@ -76,7 +76,7 @@ if(this.careerForm.valid){
   confirmButtonText: 'OK',
   timer: 6000
 })
-  this.http.sendEmail("http://localhost:3002/sendmail", formData).subscribe(
+  this.http.sendEmail("http://18.142.249.36:3004/sendmail", formData).subscribe(
     data => {
       // let res:any = data;
       if(data){
