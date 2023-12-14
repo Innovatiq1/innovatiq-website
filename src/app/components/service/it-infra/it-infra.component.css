@@ -16,9 +16,9 @@ header.masthead {
     background-color: white;
     border-radius: 20px;
     width: 100%;
-    height: 120px;
+    height: 140px;
     margin-left: 90px;
-    padding: 15px;
+    padding: 8px;
     box-shadow: 2px 5px 6px -1px rgba(0, 0, 0, 0.3);
 }
 .container{
