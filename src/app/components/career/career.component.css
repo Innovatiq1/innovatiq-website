@@ -1,5 +1,9 @@
 .container {
   margin-top: 50px;
+  font-family: 'Nunito';
+}
+h3, h4, h5{
+  font-weight: bold;
 }
 input{
   background-color: rgba(217, 217, 217, 0.5);

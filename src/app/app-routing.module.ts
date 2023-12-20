@@ -14,6 +14,14 @@ import { BusinessAppDevComponent } from './components/service/business-app-dev/b
 import { ConsultingServicesComponent } from './components/service/consulting-services/consulting-services.component';
 import { DigitalTransComponent } from './components/service/digital-trans/digital-trans.component';
 import { CloudServiceComponent } from './components/service/cloud-service/cloud-service.component';
+import { ManufacturingComponent } from './components/industries/manufacturing/manufacturing.component';
+import { HealthcareComponent } from './components/industries/healthcare/healthcare.component';
+import { RetailComponent } from './components/industries/retail/retail.component';
+import { EducationComponent } from './components/industries/education/education.component';
+import { BfsiComponent } from './components/industries/bfsi/bfsi.component';
+import { LmsComponent } from './components/products/lms/lms.component';
+import { TmsComponent } from './components/products/tms/tms.component';
+import { VisionMissionComponent } from './components/about/vision-mission/vision-mission.component';
 
 
 const routes: Routes = [
@@ -87,6 +95,47 @@ const routes: Routes = [
     component:ContactformComponent,
 
   },
+  {
+    path:'manufacturing',
+    component:ManufacturingComponent,
+
+  },
+  {
+    path:'healthcare',
+    component:HealthcareComponent,
+
+  },
+  {
+    path:'retail',
+    component:RetailComponent,
+
+  },
+  {
+    path:'education',
+    component:EducationComponent,
+
+  },
+  {
+    path:'bfsi',
+    component:BfsiComponent,
+
+  },
+  {
+    path:'lms',
+    component:LmsComponent,
+
+  },
+  {
+    path:'tms',
+    component:TmsComponent,
+
+  },
+  {
+    path:'vision-mission',
+    component:VisionMissionComponent,
+
+  },
+
 ];
 
 @NgModule({
