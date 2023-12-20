@@ -31,6 +31,14 @@ import { BusinessAppDevComponent } from './components/service/business-app-dev/b
 import { ConsultingServicesComponent } from './components/service/consulting-services/consulting-services.component';
 import { DigitalTransComponent } from './components/service/digital-trans/digital-trans.component';
 import { CloudServiceComponent } from './components/service/cloud-service/cloud-service.component';
+import { ManufacturingComponent } from './components/industries/manufacturing/manufacturing.component';
+import { HealthcareComponent } from './components/industries/healthcare/healthcare.component';
+import { RetailComponent } from './components/industries/retail/retail.component';
+import { EducationComponent } from './components/industries/education/education.component';
+import { BfsiComponent } from './components/industries/bfsi/bfsi.component';
+import { LmsComponent } from './components/products/lms/lms.component';
+import { TmsComponent } from './components/products/tms/tms.component';
+import { VisionMissionComponent } from './components/about/vision-mission/vision-mission.component';
 
 @NgModule({
   declarations: [
@@ -60,7 +68,15 @@ import { CloudServiceComponent } from './components/service/cloud-service/cloud-
           BusinessAppDevComponent,
           ConsultingServicesComponent,
           DigitalTransComponent,
-          CloudServiceComponent
+          CloudServiceComponent,
+          ManufacturingComponent,
+          HealthcareComponent,
+          RetailComponent,
+          EducationComponent,
+          BfsiComponent,
+          LmsComponent,
+          TmsComponent,
+          VisionMissionComponent
 
 
   ],

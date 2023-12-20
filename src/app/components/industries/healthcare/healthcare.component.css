@@ -1,0 +1,40 @@
+.container-fluid{
+    font-family: 'Nunito';
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 50px;
+}
+header.masthead {
+    padding-top: 150px;
+    font-family: 'Nunito';
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(rgba(42, 41, 41, 0.7), rgba(62, 59, 59, 0.7)), url("/assets/industries/Indus-HealthCare-02.png");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: 100% 100%;
+
+  }
+  .back{
+    float: left;
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #2b5b93;
+    border-radius: 10px;
+    border: none;
+  }
+  .next{
+    float: right;
+    margin: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #2b5b93;
+    border-radius: 10px;
+    border: none;
+  }
+  

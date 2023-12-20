@@ -1,13 +1,19 @@
 .container{
     margin-top: 50px;
     margin-left: 30px;
+    font-family: 'Nunito';
 }
-.text{
-border: none;
-border-radius: 20px;
-background-color:#e9ecef;
-width: 107%;
+h6 , h2{
+    font-weight: bold;
 }
+.colored-image {
+    filter: brightness(95%); 
+    width: 150%;
+    max-width: 107%; 
+    height: auto; 
+    position: absolute; 
+    z-index: -1;
+  }
 .col-md-4{
     margin-top: 120px;
     margin-left: 10px;
@@ -322,7 +328,10 @@ select:disabled {
     font-weight: bolder;
 }
 .bg-overlay {
-    background: linear-gradient(rgba(42, 41, 41, 0.7), rgba(62, 59, 59, 0.7)), url("/assets/Service/Rectangle 33.png");
+    background: linear-gradient(
+        rgba(155, 151, 151, 0.5) 70%, /* Adjust the percentage value to control the height of the first color stop */
+        rgba(77, 74, 74, 0) 92% /* Adjust the percentage value to control the height of the second color stop */
+    ), url("/assets/Service/Rectangle 33.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -333,7 +342,7 @@ select:disabled {
     margin-left: 10px;
     margin-bottom: 100px;
     border-radius: 20px;
-    /* border-bottom-right-radius: 30%; */
+    border-bottom-right-radius: 22.5%;
 }
 .mission{
     margin-top: 50px;
@@ -422,38 +431,38 @@ color: rgb(139, 90, 11);
     position: absolute;
     width: 46.87px;
     height: 46.6px;
-    left: 52vw;
-    top: 19vw;
+    left: 48vw;
+    top: 9vw;
 }
 
 .correct img {
     position: absolute;
     width: 14.6px;
     height: 14.6px;
-    left: 54.8vw;
-    top: 21.3vw;
+    left: 50.8vw;
+    top: 11vw;
 }
 
 .angela img {
     position: absolute;
     width: 46.6px;
     height: 46.89px;
-    left: 87.5vw;
-    top: 23vw;
+    left: 84.5vw;
+    top: 15vw;
 }
 
 .star img {
     position: absolute;
     width: 14.6px;
     height: 14.6px;
-    left: 90.5vw;
-    top: 25vw;
+    left: 87.3vw;
+    top: 17vw;
 
 }
 .network {
     position: absolute;
-    left: 83.5vw;
-    top: 43vw;
+    left: 75.3vw;
+    top: 35vw;
     color: black;
     border: none;
     border-radius: 15px;
@@ -466,8 +475,8 @@ color: rgb(139, 90, 11);
     position: absolute;
     width: 19%;
     height: 100px;
-    left: 50vw;
-    top: 49vw;
+    left: 45vw;
+    top: 35vw;
     text-align: left;
     color: black;
     border: none;
@@ -480,7 +489,7 @@ color: rgb(139, 90, 11);
     width: 46.6px;
     height: 46.89px;
     left: 35vw;
-    top: 3vw;
+    top: 7vw;
 }
 
 .correct-2 img {
@@ -488,7 +497,7 @@ color: rgb(139, 90, 11);
     width: 14.6px;
     height: 14.6px;
     left: 38vw;
-    top: 5vw;
+    top: 9vw;
 }
 
 
