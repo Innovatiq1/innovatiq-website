@@ -1,0 +1,29 @@
+.lms{
+    padding: 20px;
+    font-family: 'Nunito'; 
+}
+.welcome{
+    font-weight: bold;
+    color: red;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+h5, h6{
+    font-weight: bold; 
+}
+
+.join {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #064972e8;
+}
+
+h6{
+    color: #093f81;  
+}
+
+
+
